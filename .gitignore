@@ -1,6 +1,4 @@
 #Result files
-*.asm
-*.cmp
-*.tst
+*.vm
 /resources/
 /bin/

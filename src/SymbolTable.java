@@ -3,9 +3,8 @@ import java.util.Hashtable;
 
 /**
  * @author Brian Song
- * @description provides services for building, populating, and using symbol
- * tables that keep track of the symbol properties name, type, kind, and a
- * running index for each kind.
+ * @description provides services for building, populating, and using symbol tables that keep track
+ *              of the symbol properties name, type, kind, and a running index for each kind.
  */
 
 public class SymbolTable {
@@ -42,8 +41,9 @@ public class SymbolTable {
 	}
 
 	/**
-	 * Defines/Adds to table a new variable of given name, type, and kind.
-	 * Assigns to index value of that kind and adds one to index
+	 * Defines/Adds to table a new variable of given name, type, and kind. Assigns to index value of
+	 * that kind and adds one to index
+	 * 
 	 * @param name name of variable
 	 * @param type type of variable
 	 * @param kind kind of variable

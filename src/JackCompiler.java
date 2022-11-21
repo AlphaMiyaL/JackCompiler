@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class JackCompiler {
 	public static void main(String[] args) {
-		String argy=null;
+		String argy = null;
 		if(args.length==0) {
 			Scanner kb = new Scanner(System.in);
 			System.out.print("Please enter the filepath: ");

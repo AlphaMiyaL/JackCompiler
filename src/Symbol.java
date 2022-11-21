@@ -1,7 +1,6 @@
 /**
  * @author Brian Song
- * @description Defines a Symbol as a class object
- * contains a type, kind, and index
+ * @description Defines a Symbol as a class object contains a type, kind, and index
  */
 public class Symbol {
 	private String type;

@@ -127,6 +127,7 @@ public class JackTokenizer {
 
 	/**
 	 * Removes whitespace from file
+	 * 
 	 * @param file file to have whitespace adn comments removed
 	 * @throws FileNotFoundException if file is not found
 	 */
@@ -180,7 +181,7 @@ public class JackTokenizer {
 		}
 	}
 
-	//Helper function to whitespace remover
+	// Helper function to whitespace remover
 	private void parse(String s) {
 		if(s.length()==0) {
 			return;
@@ -241,7 +242,7 @@ public class JackTokenizer {
 		}
 	}
 
-	//helper function it initiallize keywords
+	// helper function it initiallize keywords
 	private void initKeywords() {
 		keywords = new String[21];
 		keywords[0] = "class";
