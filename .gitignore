@@ -1,0 +1,6 @@
+#Result files
+*.asm
+*.cmp
+*.tst
+/resources/
+/bin/
